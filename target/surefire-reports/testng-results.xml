@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25029" started-at="2022-11-17T03:48:26Z" finished-at="2022-11-17T03:48:51Z">
+    <groups>
+      <group name="RegressionTest">
+        <method signature="ActionsEx2.actionEx1()[pri:0, instance:com.testng.practice.ActionsEx2@6c779568]" name="actionEx1" class="com.testng.practice.ActionsEx2"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Test" duration-ms="25029" started-at="2022-11-17T03:48:26Z" finished-at="2022-11-17T03:48:51Z">
+      <class name="com.testng.practice.ActionsEx2">
+        <test-method status="PASS" signature="initializeReport()[pri:0, instance:com.testng.practice.ActionsEx2@6c779568]" name="initializeReport" is-config="true" duration-ms="373" started-at="2022-11-17T03:48:25Z" finished-at="2022-11-17T03:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReport -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.testng.practice.ActionsEx2@6c779568]" name="launchBrowser" is-config="true" duration-ms="14521" started-at="2022-11-17T03:48:26Z" finished-at="2022-11-17T03:48:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="actionEx1()[pri:0, instance:com.testng.practice.ActionsEx2@6c779568]" name="actionEx1" duration-ms="8062" started-at="2022-11-17T03:48:40Z" finished-at="2022-11-17T03:48:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionEx1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testng.practice.ActionsEx2@6c779568]" name="closeBrowser" is-config="true" duration-ms="2389" started-at="2022-11-17T03:48:48Z" finished-at="2022-11-17T03:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeReport()[pri:0, instance:com.testng.practice.ActionsEx2@6c779568]" name="closeReport" is-config="true" duration-ms="1304" started-at="2022-11-17T03:48:51Z" finished-at="2022-11-17T03:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- com.testng.practice.ActionsEx2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
